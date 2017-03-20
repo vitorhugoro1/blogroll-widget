@@ -1,0 +1,30 @@
+/**
+  * Blogroll Widget
+  */
+
+.blogroll {
+  padding: 0;
+  margin: 0;
+}
+.blogroll-list {
+  padding: 5px;
+}
+.blogroll-item {
+  max-width: calc(100%/3.7);
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 5px 0px 5px;
+}
+.blogroll-item:nth-child(1), .blogroll-item:nth-child(4), .blogroll-item:nth-child(7) {
+  margin-left: 8px;
+}
+.blogroll img {
+  width: 100%;
+  filter: grayscale(80%);
+}
+.blogroll img:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: .7s;
+}
